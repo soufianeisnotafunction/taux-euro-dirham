@@ -13,7 +13,7 @@ const sendMessage = async (body, to, from) => {
             body,
         })
         .then(message => console.log('message sent successfully', message))
-        .catch(error => console.log('Messae not sent , an error occured', error))
+        .catch(error => console.log('Message not sent , an error occured', error))
 }
 
 
